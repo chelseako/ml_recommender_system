@@ -21,10 +21,11 @@ Examined the frequencies of cateogorical variables and the distributions and rel
 
 ![Histograms of Users Variables](https://github.com/chelseako/ml_recommender_system/blob/main/user.png)
 
-## Model Building
-* Standard estimator
-* Singular value decomposition (SVD) estimator
+## Model Building  
+* Standard estimator  
+* Singular value decomposition (SVD) estimator  
 
+The movies database was truncated to include the top 100 movies with the highest number of ratings. Sorting the movies by number of recommendations increases the likelihood new users will be able to rate movies they have seen. Using this truncated dat matrix, 40 components were identified as capturing 85% of the variance.  
 ![Percent of variance explained by SVD components](https://github.com/chelseako/ml_recommender_system/blob/main/svd_components.png)
 
 ## Model Performance
