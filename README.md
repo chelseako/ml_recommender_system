@@ -17,9 +17,15 @@ Data included 100,000 movie ratings on 1,682 unique movies from 943 unique users
 ## Data Exploration
 Examined the frequencies of cateogorical variables and the distributions and relationships between numeric variables.
 
+![Histograms of Movies Variables](https://github.com/chelseako/ml_recommender_system/blob/main/movie.png)
+
+![Histograms of Users Variables](https://github.com/chelseako/ml_recommender_system/blob/main/user.png)
+
 ## Model Building
 * Standard estimator
 * Singular value decomposition (SVD) estimator
+
+![Percent of variance explained by SVD components](https://github.com/chelseako/ml_recommender_system/blob/main/svd_components.png)
 
 ## Model Performance
 The mean absolute errors for each estimator function are as follows:
