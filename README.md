@@ -30,7 +30,9 @@ The movies database was truncated to include the top 100 movies with the highest
 
 ## Model Performance
 The mean absolute errors for each estimator function are as follows:
+
 **standard estimator:** 0.769
+
 **SVD estimator:** 0.787
 
 ## Recommender system
