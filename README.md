@@ -6,7 +6,7 @@
 * I provided 20 real ratings using the standard and SVD estimator functions and found that the standard estimator produced 5 out of 10 recommended movies I previously watched and enjoyed, while the SVD estimator produced 3 out of 10 movies I previously watched and enjoyed. Thus, the standard estimator appears to be the better estimator.
 
 ## Code and Resources Used
-**Packages:** numpy, pandas, seaborn, matplotlib, seaborn, collections, sklearn
+**Packages:** numpy, pandas, seaborn, matplotlib, collections, sklearn
 
 ## Data Cleaning
 Data included 100,000 movie ratings on 1,682 unique movies from 943 unique users.
